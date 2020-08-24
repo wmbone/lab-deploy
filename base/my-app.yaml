@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app
+spec:
+  containers:
+    - name: main
+      image: wmbone/tools-stash:1.1
+      imagePullPolicy: IfNotPresent
