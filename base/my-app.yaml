@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
     - name: main
-      image: wmbone/tools-stash:1.1
+      image: wmbone/tools-stash:latest
       imagePullPolicy: IfNotPresent
